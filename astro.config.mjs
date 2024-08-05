@@ -13,6 +13,6 @@ export default defineConfig({
   //   mode: "standalone"
   // })
   ,
-  output: "server",
+  output: "hybrid",
   adapter: cloudflare()
 });
